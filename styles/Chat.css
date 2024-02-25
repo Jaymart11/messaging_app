@@ -1,0 +1,43 @@
+.delete-channel {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.delete-channel button {
+  cursor: pointer;
+  width: 60px;
+  height: 100%;
+  background-color: rgb(255, 19, 19);
+  border: 0;
+  color: white;
+}
+
+.delete-channel button:hover {
+  background-color: rgb(236, 70, 70);
+}
+.sendbird-channel-preview:hover .delete-channel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.delete-account {
+  position: absolute;
+  bottom: 0;
+  width: 320px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(255, 19, 19);
+  color: white;
+  border: none;
+}
+
+.delete-account:hover {
+  background-color: rgb(236, 70, 70);
+}
